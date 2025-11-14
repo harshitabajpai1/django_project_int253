@@ -1,0 +1,12 @@
+{
+  "name": "ecodriving-tracker",
+  "version": "1.0.0",
+  "description": "Track and improve driving habits for fuel efficiency and eco-friendly behavior",
+  "scripts": {
+    "build": "python3 manage.py check && python3 manage.py collectstatic --no-input",
+    "dev": "python3 manage.py runserver 0.0.0.0:8000"
+  },
+  "keywords": ["django", "eco-driving", "fuel-efficiency"],
+  "author": "",
+  "license": "MIT"
+}
